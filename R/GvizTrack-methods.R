@@ -186,7 +186,6 @@ setMethod("ASEDAnnotationTrack", signature(x = "ASEset"), function(x, GR = rowRa
 setGeneric("CoverageDataTrack", function(x, GR = rowRanges(x), BamList = NULL, strand = NULL, 
     start = NULL, end = NULL, trackNameVec = NULL, meanCoverage=FALSE, verbose = TRUE, ...) {
     standardGeneric("CoverageDataTrack")
-#' @rdname ASEset-gviztrack
 #' @export
 })
 setMethod("CoverageDataTrack", signature(x = "ASEset"), function(x, GR = rowRanges(x), 

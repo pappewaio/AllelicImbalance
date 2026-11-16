@@ -54,7 +54,6 @@
 #' dai <- detectAI(a)
 #' 
 #'
-#' @rdname detectAI
 #' @export
 setGeneric("detectAI", function(x, ...){
     standardGeneric("detectAI")

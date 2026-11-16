@@ -68,7 +68,7 @@
 #' 
 #' @importFrom GenomicAlignments pileLettersAt
 #' @importFrom GenomicAlignments cigar
-#' @importFrom GenomicAlignments cigarToRleList
+#' @importFrom cigarillo cigars_as_RleList
 #' @importFrom GenomicAlignments GAlignments
 #' @importFrom GenomicAlignments GAlignmentPairs
 #' @importFrom GenomicAlignments GAlignmentsList
@@ -114,7 +114,6 @@
 #' @importClassesFrom AnnotationDbi AnnotationDb
 #' @importClassesFrom AnnotationDbi OrgDb
 #' @importClassesFrom AnnotationDbi ChipDb
-#' @importClassesFrom AnnotationDbi InparanoidDb
 #' @importClassesFrom AnnotationDbi GODb
 #' @importClassesFrom AnnotationDbi ReactomeDb
 #'

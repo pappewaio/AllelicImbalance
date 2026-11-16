@@ -61,7 +61,6 @@ NULL
 #' # useful for detailed visualization.
 #' locationplot(ASEset,type='count',strand='*')
 #' 
-#' @rdname locationplot
 #' @export
 setGeneric("locationplot", function(x, ...) {
     standardGeneric("locationplot")

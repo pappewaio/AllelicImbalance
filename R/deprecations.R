@@ -207,7 +207,7 @@ NULL
 #' @keywords internal
 #' @examples
 #'
-#'   RleCigarList <-  cigarToRleList('3M4I93M')
+#'   RleCigarList <-  cigarillo::cigars_as_RleList('3M4I93M')
 #'   BpPos <- 5
 #'
 #'   newPos <- realCigarPosition.old(RleCigar=RleCigarList[[1]], BpPos)
@@ -446,7 +446,7 @@ scanForHeterozygotes.old <- function(BamList, minimumReadsAtPos = 20, maximumMaj
             if (!(length(BamListHere) == 0)) {
 
                 # then iterate over all reads
-                cigarRle <- cigarToRleList(mcols(BamListHere)[, "cigar"])
+                cigarRle <- cigars_as_RleList(mcols(BamListHere)[, "cigar"])
                 toKeep <- realCigarPositionsList.old(cigarRle)
 
                 seq <- mcols(BamListHere)[, "seq"]

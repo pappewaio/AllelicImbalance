@@ -1,8 +1,8 @@
 Package: AllelicImbalance
 Type: Package
 Title: Investigates Allele Specific Expression
-Version: 1.25.2
-Date: 2019-04-06
+Version: 1.51.1
+Date: 2021-11-17
 Encoding: UTF-8
 Author: Jesper R Gadin, Lasse Folkersen
 Maintainer: Jesper R Gadin <j.r.gadin@gmail.com>
@@ -42,7 +42,8 @@ Imports:
     gridExtra,
     seqinr,
     GenomeInfoDb,
-    nlme
+    nlme,
+    cigarillo
 LazyData: TRUE
 biocViews: Genetics, Infrastructure, Sequencing
 VignetteBuilder: knitr
@@ -79,4 +80,4 @@ Collate:
     'simulation-methods.R'
     'summary-methods.R'
     'utils.R'
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
