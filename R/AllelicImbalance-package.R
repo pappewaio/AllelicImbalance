@@ -68,7 +68,7 @@
 #' 
 #' @importFrom GenomicAlignments pileLettersAt
 #' @importFrom GenomicAlignments cigar
-#' @importFrom GenomicAlignments cigarToRleList
+#' @importFrom cigarillo cigars_as_RleList
 #' @importFrom GenomicAlignments GAlignments
 #' @importFrom GenomicAlignments GAlignmentPairs
 #' @importFrom GenomicAlignments GAlignmentsList

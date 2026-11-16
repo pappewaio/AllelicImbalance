@@ -40,7 +40,7 @@ The main intention for these functions are to be the internal functions for
 }
 \examples{
 
-  RleCigarList <-  cigarToRleList('3M4I93M')
+  RleCigarList <-  cigarillo::cigars_as_RleList('3M4I93M')
   BpPos <- 5
 
   newPos <- realCigarPosition.old(RleCigar=RleCigarList[[1]], BpPos)
